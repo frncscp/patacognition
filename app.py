@@ -14,7 +14,7 @@ st.set_page_config(
     }
 )
 
-st.title("Patacotrón.")
+st.title("<center><h1>Patacotrón</h1></center>")
 st.markdown("Los modelos no están en orden de eficacia, sino en orden de creación.\nLos modelos 1.5, 1.6 y 1.8 tienden a dar mejores resultados.")
 
 
