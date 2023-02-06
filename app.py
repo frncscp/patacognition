@@ -14,10 +14,18 @@ st.set_page_config(
     }
 )
 
-st.title("<center><h1>Patacotrón</h1></center>")
-st.markdown("Los modelos no están en orden de eficacia, sino en orden de creación.\nLos modelos 1.5, 1.6 y 1.8 tienden a dar mejores resultados.")
 
+col_a, col_b, col_c = st.columns(3)
 
+with col_a:
+        st.write(' ')
+
+with col_b:
+        st.title("Patacotrón")
+        st.markdown("Los modelos no están en orden de eficacia, sino en orden de creación.\nLos modelos 1.5, 1.6 y 1.8 tienden a dar mejores resultados.")
+
+with col3:
+        st.write(' ')
 
 model_list = []
 for i in range(9):
