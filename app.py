@@ -24,7 +24,7 @@ with col_b:
         st.title("Patacotrón")
         st.markdown("Los modelos no están en orden de eficacia, sino en orden de creación.\nLos modelos 1.5, 1.6 y 1.8 tienden a dar mejores resultados.")
 
-with col3:
+with col_c:
         st.write(' ')
 
 model_list = []
