@@ -3,3 +3,4 @@ tensorflow
 numpy
 keras
 opencv-python-headless
+gunicorn
